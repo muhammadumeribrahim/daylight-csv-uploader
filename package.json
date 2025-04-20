@@ -1,22 +1,16 @@
 {
-  "name": "daylight-csv-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "daylight-csv-uploader",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next-on-pages",
-    "deploy": "npx wrangler pages deploy .vercel/output/static"
+    "build": "next build",
+    "deploy": "wrangler deploy"
   },
   "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.4.0",
     "next": "15.3.1",
     "papaparse": "^5.5.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
-  },
-  "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.13.12",
-    "@eslint/eslintrc": "^3",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.1"
   }
 }

@@ -1,3 +1,10 @@
-name = "daylight-csv-files-uploader"
-pages_build_output_dir = ".vercel/output/static"
-compatibility_date = "2025-04-20"
+name               = "daylight-csv-uploader"
+account_id         = "f51bb6a1f9acca224171e5ea9126a37f"
+workers_dev        = true
+compatibility_date = "2025-04-19"
+
+
+site = { bucket = "./out" }
+
+
+main = "workers-site/index.js"
