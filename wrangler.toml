@@ -1,0 +1,3 @@
+name = "daylight-csv-files-uploader"
+pages_build_output_dir = ".vercel/output/static"
+compatibility_date = "2025-04-20"
