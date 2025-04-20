@@ -1,4 +1,4 @@
-name               = "daylight-csv-uploader"
+name = "csv-files-upload"
 account_id         = "f51bb6a1f9acca224171e5ea9126a37f"
 workers_dev        = true
 compatibility_date = "2025-04-19"
